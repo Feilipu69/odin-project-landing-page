@@ -4,6 +4,11 @@
 	padding: 0;
 }
 
+.container {
+	width: 85%;
+	margin: auto;
+}
+
 .hero, footer {
 	background-color: #1F2937;
 }
@@ -41,11 +46,6 @@ header ul {
 	text-decoration: none;
 	color: #E5E7EB;
 	font-size: 18px;
-}
-
-header, .hero-text, .information, .quote-article p, .action, footer p {
-	width: 85%;
-	margin: auto;
 }
 
 .hero-text {
