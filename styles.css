@@ -50,6 +50,12 @@ header ul {
 
 .hero-text {
 	display: flex;
+	justify-content: space-between;
+	padding: 100px 0 150px 0;
+}
+
+#title {
+	width: 50%;
 }
 
 h1 {
@@ -62,7 +68,16 @@ h1 {
 }
 
 .hero-text img {
-	width: 300px;
+	width: 450px;
+}
+
+.hero-text button {
+	width: 130px;
+	height: 35px;
+	font-size: 1.1em;
+	border-radius: 10px;
+	border: 0;
+	margin-top: 20px;
 }
 
 .main {
