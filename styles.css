@@ -4,11 +4,16 @@
 	padding: 0;
 }
 
+header, .hero-text {
+	width: 75%;
+	margin: auto;
+}
+/*
 .container, .quote-article p {
 	width: 70%;
 	margin: auto;
 }
-
+*/
 .hero, footer {
 	background-color: #1F2937;
 }
@@ -84,6 +89,11 @@ h1 {
 	background-color: white;
 }
 
+.information {
+	width: 65%;
+	margin: auto;
+}
+
 .main h2 {
 	text-align: center;
 	margin-top: 35px;
@@ -91,7 +101,7 @@ h1 {
 
 .pictures {
 	display: flex;
-	padding: 100px 50px;
+	padding: 100px 0px;
 
 }
 
