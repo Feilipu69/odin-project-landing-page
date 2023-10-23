@@ -176,3 +176,39 @@ footer p {
 	text-align: center;
 	font-size: 1.1em;
 }
+
+@media screen and (max-width:450px) 
+{
+	header, .hero-text {
+		width: 100%;
+	}
+
+	header, header ul, article, .pictures, .action {
+		flex-direction: column;
+	}
+
+	.header-logo-text, header ul {
+		text-align: center;
+	}
+
+	header ul {
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	#title {
+		width: 100%;
+	}
+
+	#title button {
+		margin-bottom: 70px;
+	}
+
+	.pictures figure {
+		margin-bottom: 30px;
+	}
+
+	.action button {
+		margin: 20px auto;
+	}
+}
